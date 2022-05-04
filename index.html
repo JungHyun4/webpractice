@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <title>practice</title>
+</head>
+<body>   
+    <button id="sign-in-button">Sign in</button>     
+    <button id="logout-button">Logout</button>
+    <h2 id="clock">00:00:00</h2>
+    <form id="login-form" class="hidden">
+        <input 
+        type="text"
+        required
+        maxlength="15"
+        placeholder="What is your name?"/>
+        <button>Login</button>
+    </form>
+    <h1 id="greeting" class= "hidden"></h1>
+    <form id="todo-form" class= "hidden">
+        <input type="text" placeholder="Write schedule and enter" required />
+        <button>Enter</button>
+    </form>
+    <ul id="todo-list"></ul>
+    
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="modal" class="hidden">
+		<div class="md_overlay"></div>
+		<div class="md_content">
+            <button id="X-button">❌</button>
+			<form id="signin-form">
+                <input 
+                type="text" 
+                id="sign-in-input" 
+                placeholder="Write name and enter">
+            </form>
+		</div>
+	</div>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>

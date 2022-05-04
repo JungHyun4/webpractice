@@ -1,0 +1,95 @@
+.hidden{
+    display: none !important;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity: 0.6;
+    }
+#greeting{
+    text-align: center;
+}
+#login-form{
+    text-align: center;
+}
+#clock{
+    font-size: 50px;
+    text-align: center;
+    margin-top : 200;
+}
+
+#todo-form input{
+    font-style:unset;
+}
+
+#quote{
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    position: relative;
+}
+#todo-list{
+    text-align: center;
+    align-items: left;
+} 
+#todo-list li{
+    list-style-type:none;
+    width: auto;
+    height: auto;
+    margin: 0 ;
+}
+#todo-list button{
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent;
+    border: 2px;
+    color: #FFFFFF;
+    text-align: flex;
+}
+#todo-form{
+    text-align: center;
+}
+
+#modal button{
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent;
+    border: 2px;
+    color: #FFFFFF;
+    text-align: flex;
+}
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.modal_overlay {
+    background-color: rgba(0, 0, 0, 0.6) ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+.modal_content {
+    width: 10%;
+    background-color:white;
+    text-align: center;
+    padding: 50px 100px;
+    position: relative;
+    border-radius: 10px;
+    top: 0px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
